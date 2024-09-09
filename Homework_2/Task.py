@@ -53,7 +53,7 @@ def get_data(url):
         return data_list
     except Exception as e:
         print(f"Error get data from — {url}: {e}")
-        return [-1]
+        return []
 
 
 # Переход по страницам сайта
